@@ -8,7 +8,7 @@ $(document).ready(function() {
 	$audioControl = $('[data-type="audio-control"]');
 
 	// initAudioPlayer();
-	setTimeout(initAudioPlayer, 2000);
+	setTimeout(initAudioPlayer, 1000);
 	
 	function initAudioPlayer() {
 		$playBtn.parent().show();
