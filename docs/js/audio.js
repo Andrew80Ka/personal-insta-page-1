@@ -11,8 +11,8 @@ $(document).ready(function() {
 	setTimeout(initAudioPlayer, 2000);
 	
 	function initAudioPlayer() {
-		// $playBtn.parent().show();
-		$pauseBtn.parent().show();
+		$playBtn.parent().show();
+		// $pauseBtn.parent().show();
 		audio.loop = true;
 		audio.play();
 
